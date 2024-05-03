@@ -1,0 +1,54 @@
+Starting server 1
+
+
+--------------------------
+strMode = full
+strPrimaryInterface = <empty>
+strAltInterface = <empty>
+strPrimaryAdvertised = <empty>
+strAlternateAdvertised = <empty>
+strPrimaryPort = <empty>
+strAltPort = <empty>
+strFamily = <empty>
+strProtocol = <empty>
+strHelp = <empty>
+strVerbosity = 3
+strMaxConnections = <empty>
+strDosProtect = <empty>
+strReuseAddr = 1
+--------------------------
+
+PP = 192.168.80.93:3478
+PA = 192.168.80.93:3479
+AP = 192.168.80.96:3478
+AA = 192.168.80.96:3479
+Protocol = UDP
+Configuring single threaded mode
+
+Successfully started server.
+Starting listener thread (4 recv sockets, 4 send sockets)
+recvfrom returns 32 from 192.168.80.1:55896 on local interface 192.168.80.93:3478
+sendto returns 68 (err == 0)
+
+recvfrom returns 164 from 192.168.80.96:52502 on local interface 192.168.80.96:3478
+recvfrom returns 164 from 192.168.80.96:52502 on local interface 192.168.80.96:3478
+recvfrom returns 164 from 192.168.80.96:52502 on local interface 192.168.80.96:3478
+recvfrom returns 32 from 192.168.80.1:55896 on local interface 192.168.80.93:3478
+sendto returns 68 (err == 0)
+
+recvfrom returns 32 from 192.168.80.1:55896 on local interface 192.168.80.93:3478
+sendto returns 68 (err == 0)
+
+recvfrom returns 32 from 192.168.80.1:55896 on local interface 192.168.80.93:3478
+sendto returns 68 (err == 0)
+
+recvfrom returns 32 from 192.168.80.1:55896 on local interface 192.168.80.93:3478
+sendto returns 68 (err == 0)
+
+recvfrom returns 32 from 192.168.80.1:55896 on local interface 192.168.80.93:3478
+sendto returns 68 (err == 0)
+
+sigwait returns 0 (errno==107)
+Server is exiting
+Shutting down UDP server
+Thread exiting
